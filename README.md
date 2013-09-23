@@ -16,7 +16,7 @@ Cd to an Android project, start vim and you're done. I use NERDTree so I'm usual
 
 The script will recognize this is an Android project by checking AndroidManifest.xml and will get the target from project.properties, then it will prepend the jar path to CLASSPATH and the [Android API](http://developer.android.com/reference/android/widget/package-summary.html) will be available to omnifunc completion.
 
-
+Setting the variable `g:add_libs_to_classpath` will add any extra jar files inside the libs/ directory (in project root) to the classpath.
 # License
 
 As usual (will fill in when I'll manage to understand license-world).
